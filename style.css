@@ -16,7 +16,7 @@ img {
 .container {
     width: 1240px;
     margin: 0 auto;
-    padding: 150px 0px;
+    padding: 100px 0px;
 }
 
 /* Header Css */
@@ -70,6 +70,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 0px;
 }
 
 .failures__section__info {}
@@ -101,3 +102,42 @@ img {
 .failures__section__info li i {
     color: #16D887;
 }
+
+/* Planning Section */
+
+.planning__section h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.planning__list {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.planning__iteam {
+    text-align: center;
+}
+
+.planning__iteam h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+
+}
+
+.planning__iteam h5 {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+/*  */
