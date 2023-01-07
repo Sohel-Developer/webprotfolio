@@ -16,6 +16,7 @@ img {
 .container {
     width: 1240px;
     margin: 0 auto;
+    padding: 150px 0px;
 }
 
 /* Header Css */
@@ -29,7 +30,6 @@ img {
 .banner__info {
     display: flex;
     text-align: right;
-    padding: 150px 0;
 }
 
 .details {
@@ -62,4 +62,42 @@ img {
     background: #F15B22;
     border-radius: 5px;
     border: none;
+}
+
+/* failures of previous year Section */
+
+.failures__section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failures__section__info {}
+
+.failures__section__info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.failures__section__info p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.failures__section__info ul {
+    margin-top: 16px;
+}
+
+.failures__section__info li {
+    list-style: none;
+    margin-top: 8px;
+}
+
+.failures__section__info li i {
+    color: #16D887;
 }
